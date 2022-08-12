@@ -1,0 +1,39 @@
+.heading {
+  font-weight: 700;
+  letter-spacing: 0.01em;
+  font-size: 20px;
+  white-space: nowrap;
+  padding-top: 1rem;
+  height: 4rem;
+}
+.header {
+  background-color: #508de8;
+  color: white;
+}
+
+.padding > * {
+  padding:0 14px;
+}
+
+.linkedIn_Review {
+  background: #fcfaf9;
+  border-bottom: 2px solid #ece4db;
+  color: black;
+  height: auto;
+  line-height: 1;
+  font-size: 16px;
+  font-weight: 600;
+  
+}
+
+.info_text {
+  font-size: 13px;
+
+  color: rgba(0, 0, 0, 0.67);
+  line-height: 18px;
+  margin-bottom: 14px;
+  margin-top: 4px;
+  text-rendering: optimizespeed;
+  text-align: left;
+  
+}

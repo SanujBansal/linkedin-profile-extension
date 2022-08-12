@@ -1,2 +1,4 @@
-console.log('This is the background page.');
-console.log('Put the background scripts here.');
+chrome.action.onClicked.addListener(function (tab) {
+  chrome.tabs.sendMessage(tab.id, { text: 'toggleMain' });
+  console.log('Sending message!');
+});

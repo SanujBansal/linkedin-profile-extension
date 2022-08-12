@@ -1,6 +1,17 @@
-import { printLine } from './modules/print';
+import 'antd/dist/antd.css';
+import React from 'react';
+import ReactDOM from 'react-dom';
+import Root from './components/Root';
 
-console.log('Content script works!');
-console.log('Must reload extension for modifications to take effect.');
+const root = document.createElement('div');
+root.id = 'crx-root';
+document.body.append(root);
 
-printLine("Using the 'printLine' function from the Print Module");
+ReactDOM.render(
+  <React.StrictMode>
+    <div className="root">
+      <Root />
+    </div>
+  </React.StrictMode>,
+  root
+);

@@ -1,0 +1,11 @@
+
+.icon {
+    position: absolute;
+    left: -80px;
+    top: 40vh;
+    cursor: pointer;
+    background-color: rgb(255, 255, 255);
+    box-shadow: rgba(0, 0, 0, 0.2) -8px -10px 16px -8px, rgba(0, 0, 0, 0.2) -8px 10px 16px -8px;
+    z-index: 1;
+    border-radius: 4px 0px 0px 4px;
+}
